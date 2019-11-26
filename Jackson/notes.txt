@@ -1,0 +1,38 @@
+>node -v
+or
+>node --version
+
+>npm -v
+or
+>npm --version
+
+
+
+json and jsoln
+js object notation
+js object literal notation
+npmjs.com-----for uploading your package that can be used online
+
+
+>npm install express ------------------------------express will be deployed both on production and locally
+>npm install --save-dev nodemon--------------------for dev dependency using the flag(--save-dev nodemon)---only needed locally----so that we don't have to start the server all the time
+>npm install -g --save path------------------------global-g(for all projects at once) ----path package(view engine) is a path to certain file/folder in my system
+>npm install -global --save path
+
+
+
+On the mongo shell terminal
+
+>show databases
+>show dbs
+>use refactory   (creates a new db)
+>show collections
+>db
+>db.<<database name>>   
+>db.refactory
+>db.createCollection(<<collection mane>>)
+>db.createCollection("student")
+>db.<<collection mane>>.insert({<<field1>>:"<<value1>>",<<field2>>:"<<value2>>", <<field3>>:"<<value3>>"})
+>db.student.insert({firstname:"Maria", lastname:"Angella", age:"29"})
+>db.<<collection mane>>.find().pretty()
+>db.student.find().pretty()
